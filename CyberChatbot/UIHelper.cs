@@ -41,7 +41,7 @@ namespace CyberChatbot
             foreach (char c in message)
             {
                 Console.Write(c);
-                Thread.Sleep(20);
+                Thread.Sleep(15);
             }
 
             Console.WriteLine();
