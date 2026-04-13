@@ -40,7 +40,8 @@ namespace CyberChatbot
 
             // Display a personalised greeting
             UIHelper.TypingEffect("Hello " + UserName + "!");
-            UIHelper.TypingEffect("I am your Cybersecurity Awareness Assistant, how may I assist you?");
+            UIHelper.TypingEffect("I am your Cybersecurity Awareness Assistant.");
+            UIHelper.TypingEffect("You can ask me related to cybersecurity.");
             UIHelper.TypingEffect("Type 'exit' anytime to close the chatbot.");
         }
 
