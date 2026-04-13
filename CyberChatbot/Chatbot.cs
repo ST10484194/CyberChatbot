@@ -56,7 +56,7 @@ namespace CyberChatbot
                 // Check for empty input
                 if (string.IsNullOrWhiteSpace(input))
                 {
-                    Console.WriteLine("Bot: Please type something.");
+                    Console.WriteLine("Bot: Please type a question or type 'exit' to quit.");
                     continue;
                 }
 
@@ -73,7 +73,7 @@ namespace CyberChatbot
         {
             if (input.Contains("exit") || input.Contains("quit") || input.Contains("bye"))
             {
-                UIHelper.TypingEffect("Goodbye! Stay safe online 👋");
+                UIHelper.TypingEffect("Goodbye! Stay safe online.");
                 Environment.Exit(0);
             }
             // Dictionary of responses (keyword → answer)
