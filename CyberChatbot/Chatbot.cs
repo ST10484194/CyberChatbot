@@ -83,6 +83,16 @@ namespace CyberChatbot
 
                 { "how are you", "I am functioning well and ready to assist you. As a chatbot, I am always available to help you learn about cybersecurity." },
 
+                { "social engineering", "Social engineering is when attackers manipulate people into giving away confidential information." },
+
+                { "data privacy", "Data privacy means protecting personal information from unauthorized access." },
+
+                { "cyberbullying", "Cyberbullying is the use of digital platforms to harass or intimidate someone." },
+
+                { "secure website", "A secure website usually uses HTTPS to protect data between the user and the website." },
+
+                { "authentication", "Authentication is the process of verifying a user's identity before granting access." },
+
                 { "purpose", "My purpose is to educate users about cybersecurity and help them understand how to stay safe online from threats like phishing and malware." },
 
                 { "what can i ask you", "You can ask me about topics such as passwords, phishing, malware, safe browsing, and general cybersecurity awareness." },
